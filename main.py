@@ -19,7 +19,7 @@ ones = 0
 def get_probability():
     p1 = round(sqrt(ones/runs), 3)
     p0 = round(sqrt((runs - ones)/runs), 3)
-    return str(p1) + "|00> + " + str(p0) + "|11>"
+    return str(p0) + "|00> + " + str(p1) + "|11>"
 
 
 def run():
